@@ -3,9 +3,12 @@
 ###Module de synchronisation d'un projet symfony avec git
 symfony/gitsync
 
-####Config
+1.Config
+--------------
 ![ScreenShot](https://benjamin.antioco.fr/public/img/gitsync-config.png)
-####Pull
+2.Pull
+--------------
 ![ScreenShot](https://benjamin.antioco.fr/public/img/gitsync-pull.png)
-####Commit
+3.Commit
+--------------
 ![ScreenShot](https://benjamin.antioco.fr/public/img/gitsync-view-commit.png)
