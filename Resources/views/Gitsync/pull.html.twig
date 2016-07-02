@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gitsync Pull</title>
+
+	<link rel="stylesheet" href="{{ asset('bundles/gitsync/css/gitsync.css') }}">
+</head>
+<body>
+	<section class="glb">
+		<div class="title-img"></div>
+		<div class="title-page"><h1>Git Pull</h1></div>
+		<div class="title-bg"></div>
+
+		<br>
+
+		<div class="content">
+			<div class="ul-glb">
+				<div class="ul-title"><h2>Output pull</h2></div>
+				<ul>
+					{% for out in outputs %}
+						<li><div class="pull-output">{{ out }}</div></li>
+					{% endfor %}
+				</ul>
+
+				<br>
+
+				<div class="ul-title"><h2>Git status</h2></div>
+				<ul>
+					{% for stat in gitstatus %}
+						<li><div class="pull-output">{{ stat }}</div></li>
+					{% endfor %}
+
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="{{ asset('bundles/gitsync/js/jquery.gitsync.js') }}"></script>
+</body>
+</html>
