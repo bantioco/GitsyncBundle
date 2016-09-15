@@ -1,5 +1,5 @@
 {
-    "name": "bantioco/gitsync",
+    "name": "bantioco/gitpullsync",
     "type": "library",
     "description": "Synchronisation 'pull' symfony/git",
     "keywords": ["git","sync"],
