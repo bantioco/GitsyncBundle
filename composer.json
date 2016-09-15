@@ -1,7 +1,7 @@
 {
-    "name": "monolog/monolog",
+    "name": "symfony/gitsync",
     "type": "library",
-    "description": "Logging for PHP 5.3",
+    "description": "Synchronisation 'pull' symfony/git",
     "keywords": ["git","sync"],
     "homepage": "https://github.com/bantioco/GitsyncBundle",
     "license": "MIT",
