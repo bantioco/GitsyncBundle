@@ -29,6 +29,7 @@
         "jms/di-extra-bundle": "^1.4",
         "composer/composer": "^1.0@dev"
     },
+    "minimum-stability": "stable",
     "scripts": {
         "post-install-cmd": [
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
