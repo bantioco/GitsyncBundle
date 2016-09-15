@@ -27,7 +27,7 @@
         "sensio/generator-bundle": "^3.0",
         "jms/security-extra-bundle": "^1.5",
         "jms/di-extra-bundle": "^1.4",
-        "composer/composer": "^1.0@dev",
+        "composer/composer": "^1.0@dev"
     },
     "scripts": {
         "post-install-cmd": [
@@ -45,9 +45,5 @@
         "psr-0": {
             "Monolog": "src"
         }
-    },
-    "extra": {
-        "symfony-app-dir": "app",
-        "symfony-web-dir": "web"
     }
 }
