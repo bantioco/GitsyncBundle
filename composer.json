@@ -13,7 +13,7 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "require": {
         "php": ">=5.3.0",
         "symfony/symfony": "^2.8",
