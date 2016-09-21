@@ -7,14 +7,14 @@
 On ajoute..<br/>
 Routing:<br/>
 Dans ../app/config/routing.yml<br/>
-gitsync:<br/>
->    ...
->    resource: "@GitsyncBundle/Controller/"
->    type:     annotation
->    prefix:   /
->
-Dans../app/AppKernel.php
-AppKernel:
+>gitsync:<br/>
+>    ...<br/>
+>    resource: "@GitsyncBundle/Controller/"<br/>
+>    type:     annotation<br/>
+>    prefix:   /<br/>
+<br/>
+Dans../app/AppKernel.php<br/>
+AppKernel:<br/>
     .$bundles = [
         ...
         new GitsyncBundle\GitsyncBundle(),
