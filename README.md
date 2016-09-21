@@ -6,8 +6,8 @@
 
 >On ajoute..
 >Routing:
->Dans ../app/config/routing.yml
->gitsync:
+>Dans ../app/config/routing.yml.
+>gitsync:.
 >    ...
 >    resource: "@GitsyncBundle/Controller/"
 >    type:     annotation
