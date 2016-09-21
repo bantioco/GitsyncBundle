@@ -1,13 +1,13 @@
 # GitsyncBundle ( Bêta )#
 
 ##INSTALL##
-Copie du bundle dans:
+##Copie du bundle dans:##
 ../src/
 
 
-On ajoute..
+##On ajoute..##
 
-Routing:
+##Routing:##
 Dans ../app/config/routing.yml
 gitsync:
     ...
@@ -15,7 +15,7 @@ gitsync:
     type:     annotation
     prefix:   /
 
-Dans../app/AppKernel.php
+##Dans../app/AppKernel.php##
 AppKernel:
     .$bundles = [
         ...
@@ -23,10 +23,10 @@ AppKernel:
         ...
     ];
 
-Terminal:
+##Terminal:##
 php bin/console doctrine:schema:update --force
 
-Les routes générées :
+##Les routes générées :##
 @Route("/gitsync/config", name="gitsyncconfig")
 @Route("/gitsync/config/edit/{id}", name="gitsyncconfigedit")
 @Route("/gitsync/pull", name="gitsyncpull")
