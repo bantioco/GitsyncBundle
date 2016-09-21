@@ -2,20 +2,19 @@
 
 ##INSTALL##
 ##Copie du bundle dans:##
-../src/
-
-
-##On ajoute..##
-
-##Routing:##
-Dans ../app/config/routing.yml
-gitsync:
-    ...
-    resource: "@GitsyncBundle/Controller/"
-    type:     annotation
-    prefix:   /
-
-##Dans../app/AppKernel.php##
+../src/\s\s
+\s\s
+On ajoute..\s\s
+\s\s
+Routing:\s\s
+Dans ../app/config/routing.yml\s\s
+gitsync:\s\s
+    ...\s\s
+    resource: "@GitsyncBundle/Controller/"\s\s
+    type:     annotation\s\s
+    prefix:   /\s\s
+\s\s
+Dans../app/AppKernel.php\s\s
 AppKernel:
     .$bundles = [
         ...
