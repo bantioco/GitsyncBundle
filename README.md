@@ -2,12 +2,12 @@
 
 ##INSTALL##
 ##Copie du bundle dans:##
->../src/
+`../src/`
 
->On ajoute..
->Routing:
->Dans ../app/config/routing.yml.
->gitsync:.
+`On ajoute..`
+`Routing:`
+`Dans ../app/config/routing.yml`
+`gitsync:`
 >    ...
 >    resource: "@GitsyncBundle/Controller/"
 >    type:     annotation
