@@ -5,7 +5,7 @@
 ../src/<br/>
 <br/>
 On ajoute..<br/>
-Routing:<br/>
+<br/>
 Dans ../app/config/routing.yml<br/>
 >gitsync:<br/>
 >    ...<br/>
@@ -14,21 +14,21 @@ Dans ../app/config/routing.yml<br/>
 >    prefix:   /<br/>
 <br/>
 Dans../app/AppKernel.php<br/>
-AppKernel:<br/>
-    .$bundles = [
-        ...
-        new GitsyncBundle\GitsyncBundle(),
-        ...
-    ];
+>AppKernel:<br/>
+>    .$bundles = [<br/>
+>        ...<br/>
+>        new GitsyncBundle\GitsyncBundle(),<br/>
+>        ...<br/>
+>    ];<br/>
 
 ##Terminal:##
-php bin/console doctrine:schema:update --force
+>php bin/console doctrine:schema:update --force
 
 ##Les routes générées :##
-@Route("/gitsync/config", name="gitsyncconfig")
-@Route("/gitsync/config/edit/{id}", name="gitsyncconfigedit")
-@Route("/gitsync/pull", name="gitsyncpull")
-@Route("/gitsync/commit/view", name="gitsynccommitview")
+>@Route("/gitsync/config", name="gitsyncconfig")<br/>
+>@Route("/gitsync/config/edit/{id}", name="gitsyncconfigedit")<br/>
+>@Route("/gitsync/pull", name="gitsyncpull")<br/>
+>@Route("/gitsync/commit/view", name="gitsynccommitview")<br/>
 
 
 ##Module de synchronisation d'un projet symfony avec git##
