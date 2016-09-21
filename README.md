@@ -5,7 +5,7 @@
 >../src/
 
 >On ajoute..
->Routing:\s\s
+>Routing:
 >Dans ../app/config/routing.yml
 >gitsync:
 >    ...
