@@ -4,7 +4,7 @@
     "description": "Synchronisation 'pull' symfony/git",
     "keywords": ["git","sync"],
     "homepage": "https://github.com/bantioco/GitsyncBundle",
-    "license": "",
+    "license": "BANTIOCO",
     "authors": [
         {
             "name": "ANTIOCO Benjamin",
