@@ -6,14 +6,19 @@
 <br/>
 On ajoute..<br/>
 <br/>
-Dans ../app/config/routing.yml<br/>
+Dans ../app/config/routing.yml
+<br/>
+
 >gitsync:<br/>
 >    ...<br/>
 >    resource: "@GitsyncBundle/Controller/"<br/>
 >    type:     annotation<br/>
 >    prefix:   /<br/>
+
 <br/>
-Dans../app/AppKernel.php<br/>
+
+Dans../app/AppKernel.php
+<br/>
 >AppKernel:<br/>
 >    .$bundles = [<br/>
 >        ...<br/>
