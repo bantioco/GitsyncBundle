@@ -25,17 +25,16 @@ class GitsyncController extends Controller
         if(!empty($CGitsync))
         {
 
-            
             return $this->render('GitsyncBundle:Gitsync:config-view.html.twig', array(
             'CGitsync'  => $CGitsync,
             ));
         }
         else
         {
-            
+
             $form       = Request::createFromGlobals();
-        
-            if ($form->request->has('submit')) 
+
+            if ($form->request->has('submit'))
             {
                 //================================
                 // ON RECUPERE LES POSTS DU FORM
@@ -167,7 +166,7 @@ class GitsyncController extends Controller
         // Path repository Clone
         $DIRClone   = $CGitsync[0]->getDirclone();
         $PATClone   = "$DIRClone/";
-        
+
         // REPOSITORY
         // Path repository ( git )
         $DIRRepo   = $CGitsync[0]->getDirrepo();

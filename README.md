@@ -35,6 +35,9 @@ Dans../app/AppKernel.php
 >@Route("/gitsync/pull", name="gitsyncpull")<br/>
 >@Route("/gitsync/commit/view", name="gitsynccommitview")<br/>
 
+##Installation des assets :##
+php bin/console asset:install
+
 
 ##Module de synchronisation d'un projet symfony avec git##
 symfony/gitsync
